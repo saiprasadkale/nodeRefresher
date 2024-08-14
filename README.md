@@ -1,2 +1,2 @@
 # nodeRefresher
-Repo for relearning and brushing backend development with nodejs
+Repository for refreshing and enhancing backend development skills using Node.js.

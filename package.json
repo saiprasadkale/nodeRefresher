@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "Node JS refresher",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Saiprasad Kale",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
