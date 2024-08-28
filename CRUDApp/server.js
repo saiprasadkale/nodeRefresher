@@ -32,12 +32,6 @@ const server = http.createServer((req, res) => {
       );
       res.end();
   }
-  res.statusCode = 200;
-  res.setHeader("Content-Type", "application/json");
-  res.write(
-    JSON.stringify({ message: "Hello Saiprasad, welcome to Nodejs course" })
-  );
-  res.end();
 });
 server.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
