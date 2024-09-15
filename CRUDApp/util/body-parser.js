@@ -1,7 +1,7 @@
 module.exports= async (request) =>{
     return new Promise((resolve,reject)=>{
         try{
-            let body =""
+            let body ="";
             request.on("data",(chunk)=>{
                 body += chunk;
             })
